@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+
+# Security
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+authorization_*.txt
+scan_results/
+reports/
+
+# Don't commit your authorization documents (obviously)
+auth/
+*.auth
+
+# Skid stuff (we don't want your "hacking tools")
+*hack*.py
+*crack*.py
+*pwn*.py
+ddos*.py
+loic*.py
+
+# If you have files with these names, you're probably a skid
+anonymous_*.py
+1337_*.py
+hackerman_*.py
+
